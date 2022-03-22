@@ -1,0 +1,245 @@
+.body-container{
+
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:1366px;
+    height:973px;
+    opacity:1;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow:2px 0px 3px #00000029;
+}
+.circle{
+
+    background-color: white;
+    border: 1px solid ;
+    width: 52px;
+    height:52px;
+    text-align:center;
+    font: normal normal 600 33px/50px Poppins;
+    color:#EB2929;
+    border-radius:50%;
+    position:absolute;
+    margin-left:102px;
+    margin-top:15px;
+    
+}
+.login{
+
+    background-color:#EB2929; 
+    height:80px ;
+}
+.login1{
+
+    /*text-align: right;*/
+    font:normal normal medium 16px/25px Poppins;
+    color:#FFFFFF;
+}
+
+.login2{
+
+    width:43px;
+    height:23px;
+    position:absolute;
+    top:12px;
+    right:328px;
+    bottom:15px;
+    font: normal normal medium 16px/25px Poppins;
+}
+
+.login3{
+    
+    
+    border: 1px solid;
+    color: #FFFFFF;
+    padding: 12px 14px 11px 15px;
+    position: absolute;
+    right: 101px;
+    width: 181px;
+    text-align: center;
+    top: 17px;
+    border-radius: 3px;
+
+}
+
+.page-header{
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    color: #192f60;
+    position: absolute;
+    top: 117px;
+    left: 113px;
+}
+
+
+.filter{
+
+    /*width: 260px;*/
+    height: 682px;
+    position:absolute;
+    top: 195px;
+    left: 113px;
+    padding: 25px 20px 25px 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    background-color: #FFFFFF;
+    line-height: 2;
+}
+.title{
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #192f60;
+}
+
+.subtitle {
+    margin: 15px 102px 11px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #192f60;
+}
+
+#select-location {
+    width: 210px;
+    height: 35px;
+    margin: 10px 0 20px 0px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 5px;
+    border: solid 1px #8c96ab;
+}
+
+.options {
+    margin: 15px 0 10px 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #8c96ab;
+}
+
+.food-container1{
+    position:absolute;
+    top: 195px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+
+}
+.image{
+
+    width: 120px;
+    height:120px;
+    border-radius:25px;
+    margin-top: 25px;
+    margin-left:35px;
+    float: left;
+}
+.restaurant-name{
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #192f60;
+    position: absolute;
+    top: 39px;
+    left: 196px;
+}
+.address-line1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: #192f60;
+    position: absolute;
+    top: 83px;
+    left: 201px;
+}
+
+.address-line2{
+
+    font-family: Poppins;
+    font-size: 16px/30px;
+    color: #636f88;
+    line-height: 1.5;
+    position: absolute;
+    top: 115px;
+    left: 201px;
+}
+
+.partition{
+
+    width: 700px;
+    height: 0;
+    margin: 15px 0 0 10px;
+    border: solid 1px #dedfe5;
+    position:absolute;
+    top:163px;
+    left:30px;
+}
+
+.item-bottom{
+    position: absolute;
+    top: 169px;
+    left: 29px;
+}
+.item-bot-left {
+    display: inline-block;
+    width: 150px;
+    margin: 30px 0 0 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 2.0;
+    color: #636f88;
+}
+
+.item-bot-right {
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 2.0;
+    color: #192f60;
+
+}
+.food-container2{
+
+    position:absolute;
+    top: 520px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+
+}
+.pagination{
+    display: inline-block;
+    position:absolute;
+    top: 849px;
+    left:630px;
+    
+}
+.page{
+
+    padding: 5px 12px 3px;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    width: 12px;
+    border-radius: 7px;
+    border: solid 1px #8c96ab;
+    background-color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8c96ab;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>assignment1</title>
+    <link rel="stylesheet" href="./assignment1.css">
+</head>
+<body>
+
+        <!---login content-->
+    <div class="body-container">
+        <div class="login">
+            <div class="circle">
+                <span style="text-align:center;">e!</span>
+            </div>
+            <div class="login1">
+                <span class="login2" style="color:#FFFFFF; margin-top:15px;">Login</span>
+                <span class="login3">Create an accont</span>
+            </div>
+        </div>
+
+            <!---page header-->
+        <div class="page-header">Breakfast Places in Mumbai</div>
+
+
+            <!---filter section-->
+        <div class="filter">
+            <div class="filter-section">
+                <div class="title">Filter</div>
+                <div class="subtitle">Select location</div>
+
+                <select id="select-location">
+                    <option value="Select location">Select location</option>
+                    <option value="Bangaluru">Bangaluru</option>
+                    <option value="maisure">maisure</option>
+                    <option value="hubli">hubli</option>
+                    <option value="dharwad">dharwad</option>
+                    <option value="bagalkot">bagalkot</option>
+                    <option value="badami">badami</option> 
+                </select>
+                <div class="subtitle" name="cuisine">Cuisine</div>
+                <div class="option"><input type="checkbox" name="cuisine">North india </div>
+                <div class="option"><input type="checkbox" name="cuisine">South india </div>
+                <div class="option"><input type="checkbox" name="cuisine">Chinese</div>
+                <div class="option"><input type="checkbox" name="cuisine">Fast Food </div>
+                <div class="option"><input type="checkbox" name="cuisine">Street Food </div>
+
+                <div class="subtitle" name="cost-for-tow">Cost For Tow</div>
+                <div class="option"><input type="radio" name="cost-for-two"> Less then '500</div>
+                <div class="option"><input type="radio" name="cost-for-two"> '500 to '1000</div>
+                <div class="option"><input type="radio" name="cost-for-two"> '1000 to '1500</div>
+                <div class="option"><input type="radio" name="cost-for-two"> '1500 to '2000</div>
+                <div class="option"><input type="radio" name="cost-for-two"> 2000+</div>
+
+                <div class="title">Sort</div>
+                <div class="option"><input type="radio" name="sort">Price low to high</div>
+                 <div class="option"><input type="radio" name="sort">Price high to low</div>
+            </div>
+
+        </div>
+
+            <!---food container 1-->
+
+        <div class="food-container1">
+            <div class="items">
+                <image class="image" src="../images/breakfast.jpg.png" alt="breakfast"/>
+                <div class="restaurant-name">The Big Chill Cakery</div>
+                <div class="address-line1">Fort</div>
+                <div class="address-line2">Shop 1, Plot D,samrudhi complex, chincholli...</div>
+                <div class="partition"></div>
+                <div class="item-bottom">
+                    <div class="item-bot-left">
+                        <div> CUISINES:</div>
+                        <DIV>COST FOR TOW:</DIV>
+                    </div>
+                    <div class="item-bot-right">
+                        <div>Bakery</div>
+                        <div>₹700</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+                <!---food container 2-->
+        <div class="food-container2">
+            <div class="item">
+                <image class="image" src="../images/breakfast.jpg.png" alt="breakfast"/>
+                <div class="restaurant-name">The Big Chill Cakery</div>
+                <div class="address-line1">FORT</div>
+                <div class="address-line2">Shop 1, Plot D,samrudhi complex, chincholli...</div>
+                <div class="partition"></div>
+                <div class="item-bottom">
+                    <div class="item-bot-left">
+                        <div>CUISINES:</div>
+                        <div>COST FOR TOW:</div>
+                    </div>
+                    <div class="item-bot-right">
+                        <div>Bakery</div>
+                        <div>₹700</div>
+                    </div>                   
+                </div>              
+            </div>
+        </div>
+
+
+            <!----pagination-->
+
+        <div class="pagination">
+            <span class="page">&lt</span>
+            <span class="page" style="background-color:#8c96ab;color:#FFFFFF;">1</span>
+            <span class="page">2</span>
+            <span class="page">3</span>
+            <span class="page">4</span>
+            <span class="page">5</span>
+            <span class="page">&gt</span>
+        </div>
+
+    </div>
+</body>
+</html>
